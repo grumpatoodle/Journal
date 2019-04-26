@@ -6,7 +6,8 @@ namespace HardestChallengeEver
 {
     public enum UserMood
     {
-        Happy = 1,
+        Unanswered = 0,
+        Happy,
         Sad,
         Mad,
         Glad,
@@ -15,7 +16,7 @@ namespace HardestChallengeEver
         Bored,
         Motivated,
         Calm,
-        Ecxited,
+        Excited,
         Hopeful,
         Relaxed
     }

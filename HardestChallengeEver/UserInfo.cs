@@ -13,4 +13,17 @@ namespace HardestChallengeEver
     {
         public string Goal { get; set; }
     }
+
+    public class Entry
+    {
+        public string NewEntry { get; set; }
+        public string EditEntry { get; set; }
+        public string PreviousEntry { get; set; }
+        public string SaveEntry { get; set; }
+    }
+
+    public class Finish
+    {
+        public void EndToday;
+    }
 }

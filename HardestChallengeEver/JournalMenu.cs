@@ -7,10 +7,13 @@ namespace HardestChallengeEver
     public enum JournalMenu
     {
         UpdateName = 1,
+        Mood,
+        SetGoal,
         NewEntry,
-        LoadPreviousEntry,
         SaveCurrentDay,
         EndToday,
-        SetGoal
+        LoadPreviousEntry,
+        EditPreviousEntry,
+        ExitJournal
     }
 }
